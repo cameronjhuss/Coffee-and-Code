@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Site template</title>
+    <!-- font Awesome -->
+    <script src="https://kit.fontawesome.com/f93b013a01.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400&display=swap" rel="stylesheet">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!--Side Nav-->
+<aside id="side-nav">
+    <div class="side-nav-content">
+        <div class="side-nav-logo">
+            <img  src="Coffee & Code Logo Design 1.jpg" alt="logo">
+        </div>
+        <ul class="side-nav-social-icons">
+            <a target="_blank" href="https://github.com/cameronjhuss"><i class="fa-brands fa-github"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/cameron-huss-45b54314a/"><i class="fa-brands fa-linkedin"></i></a>
+        </ul>
+    </div>
+</aside>
+<main>
+<header id="header">
+    <nav id="header-main-nav">
+        <div class="header-main-nav-hamburger">
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+            <div class="line line-3"></div>
+        </div>
+        <ul class="main-nav-links">
+            <li><a href="#intro-section">Home</a></li>
+            <li><a href="#about-me-section">About</a></li>
+            <li><a href="#work-section">My Work</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact-me">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<section id="intro-section">
+    <div class="intro-content">
+        <h1 class="intro-title">Cameron Huss</h1>
+        <p class="intro-role">Frontend Web Developer / Designer</p>
+        <a href="#work-section" class="intro-link">My Work</a>
+    </div>
+</section>
+
+<button onclick="topFunction()" id="up-Btn" title="Go to top">&#129045;</button>
+
+<section id="work-section">
+    <div class="work-section-heading"><h2>My Work</h2></div>
+<div class="my-work">
+    <div class="card">
+		<figure class="card-thumb">
+			<img src="CopyGrow Website thumbnail.jpg" alt="" class="card-image">
+			<figcaption class="card-caption">
+				<h2 class="card-title">CopyWriting Portfolio/Landing Page</h2>
+				<p class="card-snippet">Portfolio Website/Landing Page for SEO Specialist and CopyWriter.</p>
+				<div class="button-container">
+                <button class="card-button"><a href="https://github.com/cameronjhuss/CopyGrows.Com" target="_blank"><i class="fa-solid fa-code"></i><b>View Code</b></a></button>
+				<button class="card-button"><a href="https://cameronjhuss.github.io/CopyGrows.Com/" target="_blank"><i class="fa-regular fa-eye"></i><b>Live View</b></a></button>
+			    </div>
+            </figcaption>
+		</figure>
+	</div>
+    
+    <div class="card">
+		<figure class="card-thumb">
+			<img src="weather app mock up thumbnail.jpg" alt="" class="card-image">
+			<figcaption class="card-caption">
+				<h2 class="card-title">Weather App UI Design</h2>
+				<p class="card-snippet">Quick weather app mock up design using pure html and css</p>
+                <div class="button-container">
+				<button class="card-button"><a href="https://github.com/cameronjhuss/WeatherAppUIDesign" target="_blank"><i class="fa-solid fa-code"></i><b>View Code</b></a></button>
+				<button class="card-button"><a href="https://cameronjhuss.github.io/WeatherAppUIDesign/" target="_blank" ><i class="fa-regular fa-eye"></i><b>Live View</b></a></button>
+                </div>
+			</figcaption>
+		</figure>
+	</div>
+    <div class="card">
+		<figure class="card-thumb">
+			<img src="Landing Page Mock-Up.jpg" alt="" class="card-image">
+			<figcaption class="card-caption">
+				<h2 class="card-title">Landing Page Mock-Up</h2>
+				<p class="card-snippet">A Landing Page template completed for a law firm client. Fully responsive design</p>
+				<div class="button-container">
+                <button class="card-button"><a href="https://codepen.io/husscameron/full/eYKmbZG" target="_blank"><i class="fa-solid fa-code"></i><b>View Code</b></a></button>
+                <button hidden class="card-button"><a href="#" target="_blank"><i class="fa-regular fa-eye"></i><b>Live View</b></a></button>
+			    </div>
+            </figcaption>
+		</figure>
+	</div>
+    <div class="card">
+		<figure class="card-thumb">
+			<img src="montanta lane website thumbnail.jpg" alt="" class="card-image">
+			<figcaption class="card-caption">
+				<h2 class="card-title">Photography Website</h2>
+				<p class="card-snippet">Completed using a CMS platform allowing the client to make updates/add pictures</p>
+				<div class="button-container">
+                <button hidden class="card-button"><a href="#" target="_blank"><i class="fa-solid fa-code"></i><b>View Code</b></a></button>
+                <button class="card-button"><a href="https://www.montanalanephotography.com/" target="_blank"><i class="fa-regular fa-eye"></i><span><b>Live View</b></span></a></button>
+			    </div>
+            </figcaption>
+		</figure>
+	</div>
+</div>
+</section>
+
+<section id="about-me-section">
+    <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#212d36" fill-opacity="1" d="M0,224L48,192C96,160,192,96,288,80C384,64,480,96,576,106.7C672,117,768,107,864,112C960,117,1056,139,1152,160C1248,181,1344,203,1392,213.3L1440,224L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+    <div class="about-me-image">
+        <img src="IMG_7055.JPG" alt="Portfolio image">
+    </div>
+    <div class="about-me-text">
+        <h2 class="about-me-title">About Me</h2>
+        <p class="about-me-summary">Hello I am Cameron Huss. I am a front-end web developer and designer. I specialize in creating visually striking and mobile responsive websites for a large variety of industries. I have applied my passion for design and development into the creation of websites that grow businesses by improving usability,increase CTR, clarify the Call to Action and decrease Bounce Rate.</p>
+        <a class="about-me-link"href="#contact-me">Let's Connect</a> 
+    </div>
+    <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#212d36" fill-opacity="1" d="M0,224L60,224C120,224,240,224,360,234.7C480,245,600,267,720,250.7C840,235,960,181,1080,176C1200,171,1320,213,1380,234.7L1440,256L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+</section>
+
+<section class="services-section" id="services">
+    <div class="services-heading"><h2>My Services</h2></div>
+<div class="services-cards">
+    <div class="services-card services-1">
+        <h2 class="service-card-title">Web Developement/Design</h2>
+        <img src="kaitlyn-baker-vZJdYl5JVXY-unsplash.jpg" alt="">
+        <p class="service-card-desc">
+            Specializing in Front-End Development creating modern and visually stricking websites with great UI/UX design and multi-screen responsiveness. 
+        </p>
+    </div>
+    <div class="services-card services-2">
+        <h2 class="service-card-title">Graphic Design/Editing</h2>
+        <img src="kelly-sikkema-IkHwu5xLXxs-unsplash.jpg" alt="Logo design">
+        <p class="service-card-desc">
+            Specializing in the creation of logos, infographics, banners, backgrounds and image edits etc..
+        </p>
+    </div>
+    
+    <div class="services-card services-3">
+        <h2 class="service-card-title">WordPress & HubSpot CMS</h2>
+        <img src="WordPressHubspot thumbnail.jpg" alt="">
+        <p class="service-card-desc">
+            Website Creation utilizing WordPress and/or HubSpot CMS tools. Proficient in Common WP Theme Builders (Elementor, BeaverBuilder, Alvada, Astra, Divi etc). 
+        </p>
+    </div>
+    <div class="services-card services-4">
+        <h2 class="service-card-title">SEO Specialist</h2>
+        <img src="stephen-phillips-hostreviews-co-uk-shr_Xn8S8QU-unsplash.jpg" alt="seo analytics graph">
+        <p class="service-card-desc">
+            Offering Onpage/Offpage Website Optimization and SEO Content Creation. Platforms I Use Include (Semrush, ScreamingFrog, Google Analytics, WP-YOAST, MOZ)
+        </p>
+    </div>
+</div> 
+</div>
+</section>
+<section id="testimonials-section">
+    <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#212d36" fill-opacity="1" d="M0,224L48,192C96,160,192,96,288,80C384,64,480,96,576,106.7C672,117,768,107,864,112C960,117,1056,139,1152,160C1248,181,1344,203,1392,213.3L1440,224L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+    <div class="testimonials-heading"><h2>Testimonials</h2></div>
+    <div class="testimonials">
+    <div class="testimonial-card">
+        <div class="testimonial-image">
+            <img src="Adrienne Headshot.jpeg" alt="testimonial picture">
+        </div>
+        <div class="testimonial-msg">
+            <h3>CopyGrows.Com</h3>
+            <p>Cameron was very pleasant to work with and delivered exactly what I wanted in a quick timeframe. Love the simplicity of my new website!</p>
+        </div>
+    </div>
+    <div class="testimonial-card">
+        <div class="testimonial-image">
+            <img src="headshot.jpg" alt="testimonial picture">
+        </div>
+        <div class="testimonial-msg">
+            <h3>Montana Lane Photography</h3>
+            <p>Cameron did a really great job of keeping me in the loop and updating me on the website. I love the colors he choose and how he displayed my photography.</p>
+        </div>
+    </div>
+    <div class="testimonial-card">
+        <div class="testimonial-image">
+            <img src="hot yoga website thumbnail.jpg" alt="testimonial picture">
+        </div>
+        <div class="testimonial-msg">
+            <h3>Hot Yoga Findlay</h3>
+            <p>Completely transformed my outdated website! Loving the new design and simplicity Cameron brought to my website.</p>
+        </div>
+    </div>
+</div>
+</section>
+<section id="contact-me">
+    <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#cf5c36" fill-opacity="1" d="M0,224L48,192C96,160,192,96,288,80C384,64,480,96,576,106.7C672,117,768,107,864,112C960,117,1056,139,1152,160C1248,181,1344,203,1392,213.3L1440,224L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+    <div class="contact-form">
+        <h2>Contact Me</h2>
+        <form action="mailto:cameronjhuss@gmail.com" method="POST"enctype="text/plain" >
+            <input type="text"name="name" value="" id="name" placeholder="Your Name" required>
+            <input type="email" name="email" id="email" placeholder="Your Email Address" required>          
+            <textarea name="message" id="message" cols="50" rows="8" placeholder="Leave your comments/questions/needs here..." required></textarea>
+            <input type="submit" value="Submit" id="input-submit">
+        </form>
+    </div>
+    <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#000" fill-opacity="1" d="M0,224L60,224C120,224,240,224,360,234.7C480,245,600,267,720,250.7C840,235,960,181,1080,176C1200,171,1320,213,1380,234.7L1440,256L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+
+</section>
+
+<footer>
+    
+    <div class="footer">
+        <ul class="footer-nav">
+            <li><a href="#intro-section">Home</a></li>
+            <li><a href="#about-me-section">About</a></li>
+            <li><a href="#work-section">My Work</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact-me">Contact</a></li>
+            <li><a target="_blank"  rel="noopener noreferrer" href="Cameron Huss Resume (1).pdf" >Resume</a></li>
+        </ul>
+        <div class="footer-image">
+            <img src="Coffee & Code Logo Design 1.jpg" alt="">
+        </div>
+        <ul class="footer-location">
+            <h3>Location</h3>
+            <li>Findlay, OH</li>
+            <li>United States</li>
+        </ul>
+        <ul class="social-links">
+            <a target="_blank"  href="https://github.com/cameronjhuss"><i class="fa-brands fa-github"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/cameron-huss-45b54314a/"><i class="fa-brands fa-linkedin"></i></a>
+        </ul>
+    </div> 
+</footer> 
+</main>
+
+
+    
+<script src="app.js"></script>
+</body>
+</html>
